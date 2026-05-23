@@ -4,7 +4,16 @@
       "Bash(./main.exe *)",
       "Bash(g++ -std=c++17 -o main.exe main.cpp system/system.cpp cardtype/card.cpp cardtype/Debit.cpp cardtype/Credit.cpp cardtype/Comp_card.cpp User/User.cpp -lws2_32 -lshell32)",
       "Bash(g++ -std=c++17 -finput-charset=UTF-8 -fexec-charset=GBK -o main.exe main.cpp system/system.cpp cardtype/card.cpp cardtype/Debit.cpp cardtype/Credit.cpp cardtype/Comp_card.cpp User/User.cpp -lws2_32 -lshell32)",
-      "Bash(taskkill //f //im main.exe)"
+      "Bash(taskkill //f //im main.exe)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git config *)",
+      "Bash(ping -n 2 github.com)",
+      "Bash(gh auth *)",
+      "Bash(GIT_CURL_VERBOSE=1 GIT_TRACE=1 git push -u origin main)",
+      "Bash(git pull *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
