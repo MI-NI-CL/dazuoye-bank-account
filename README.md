@@ -127,23 +127,23 @@
 八、项目结构
 --------------------------------------------------------------------------------
 
-  dazuoye/
-  ├── main.cpp                 程序入口
-  ├── main.exe                 编译后的可执行文件
-  ├── caidan.png               彩蛋图片
-  ├── README.txt               本说明文档
-  ├── system/
-  │   ├── system.hpp           系统类头文件
-  │   └── system.cpp           系统类实现
-  ├── User/
-  │   ├── User.hpp             用户类头文件
-  │   └── User.cpp             用户类实现
-  ├── cardtype/
-  │   ├── card.hpp             银行卡抽象基类
-  │   ├── card.cpp             银行卡工厂函数
-  │   ├── Debit.hpp/cpp        储蓄卡
-  │   ├── Credit.hpp/cpp       信用卡
-  │   └── Comp_card.hpp/cpp    复合卡
-  ├── users/                   用户数据目录
-  ├── cards/                   卡片数据目录
-  └── users.txt                用户列表文件（用于统计）
+ dazuoye/
+├─ main.cpp（程序入口）
+├─ main.exe（编译后的可执行文件）
+├─ caidan.png（彩蛋图片）
+├─ README.txt（本说明文档）
+├─ system/
+│  ├─ system.hpp（系统类头文件）
+│  └─ system.cpp（系统类实现）
+├─ User/
+│  ├─ User.hpp（用户类头文件）
+│  └─ User.cpp（用户类实现）
+├─ cardtype/
+│  ├─ card.hpp（银行卡抽象基类）
+│  ├─ card.cpp（银行卡工厂函数）
+│  ├─ Debit.hpp/cpp（储蓄卡）
+│  ├─ Credit.hpp/cpp（信用卡）
+│  └─ Comp_card.hpp/cpp（复合卡）
+├─ users/（用户数据目录）
+├─ cards/（卡片数据目录）
+└─ users.txt（用户列表文件，用于统计）
