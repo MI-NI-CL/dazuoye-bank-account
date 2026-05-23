@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build ATM Project",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "main.cpp",
+                "cardtype/Debit.cpp",
+                "cardtype/Comp_card.cpp",
+                "cardtype/credit.cpp",
+                "system/system.cpp",
+                "User/User.cpp",
+                "-o",
+                "main.exe",
+                "-std=c++17",
+                "-finput-charset=UTF-8",
+                "-fexec-charset=UTF-8",
+                "-g"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "编译银行卡管理系统"
+        }
+    ]
+}

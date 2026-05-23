@@ -1,0 +1,14 @@
+usingName=minicl
+password=666
+name=代
+gender=男
+address=润杰
+phone=110
+idCard=111111
+loginCount=9
+failedLogin=0
+isLocked=0
+cardCount=3
+minicl_3.txt
+minicl_2.txt
+minicl_1.txt

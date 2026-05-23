@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./main.exe *)",
+      "Bash(g++ -std=c++17 -o main.exe main.cpp system/system.cpp cardtype/card.cpp cardtype/Debit.cpp cardtype/Credit.cpp cardtype/Comp_card.cpp User/User.cpp -lws2_32 -lshell32)",
+      "Bash(g++ -std=c++17 -finput-charset=UTF-8 -fexec-charset=GBK -o main.exe main.cpp system/system.cpp cardtype/card.cpp cardtype/Debit.cpp cardtype/Credit.cpp cardtype/Comp_card.cpp User/User.cpp -lws2_32 -lshell32)",
+      "Bash(taskkill //f //im main.exe)"
+    ]
+  }
+}
